@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     Widget build(BuildContext context) {
         return Text('Hello World!!!', 
             textDirection: TextDirection.rtl
-            ,)
+            ,);
 
     }
 }
