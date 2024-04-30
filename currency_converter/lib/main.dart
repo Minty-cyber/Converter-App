@@ -7,7 +7,7 @@ void main(){
 }
 
 
-//
+// State meaning: 
 class MyApp extends StatelessWidget {
 
 }
