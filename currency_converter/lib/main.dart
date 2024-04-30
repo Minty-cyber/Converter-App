@@ -8,7 +8,7 @@ void main(){
 
 
 // State meaning: It is a data that determines how your widget should look like
-// Stateles Widget: 
+// Stateles Widget: This is a kind of widget where your apphas less state
 class MyApp extends StatelessWidget {
 
 }
