@@ -6,4 +6,4 @@ void main(){
     ,));
 }
 
-class MyApp
+class MyApp extends StatelessWidget
