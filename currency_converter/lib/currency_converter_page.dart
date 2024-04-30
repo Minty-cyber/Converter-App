@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CurrencyConverterMaterialPage extends StatelessWidget{
-    
+    const CurrencyConverterMaterialPage
 
     @override
     Widget build(BuildContext context){
