@@ -6,4 +6,4 @@ void main(){
     ,));
 }
 
-class 
+class MyApp
