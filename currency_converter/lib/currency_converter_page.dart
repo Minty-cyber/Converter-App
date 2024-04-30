@@ -8,7 +8,7 @@ class CurrencyCOnverterMaterialPAge extends StatelessWidget{
       return Scaffold(
           body: Center(
             child: Text("Hello World");
-          )
+          ),
       );
     }
 }
