@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class CurrencyCOnverterMaterialPAge extends StatelessWidget{
+class CurrencyConverterMaterialPage extends StatelessWidget{
     
 
     @override
