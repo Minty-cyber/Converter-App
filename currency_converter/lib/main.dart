@@ -2,5 +2,5 @@ import 'package:flutter/material.dart'; //Importing some package called material
 
 void main(){
     runApp(Text('Hello World!!!', 
-    textDirection: TextDirection.ltr,));
+    textDirection: TextDirection.rtl,));
 }
