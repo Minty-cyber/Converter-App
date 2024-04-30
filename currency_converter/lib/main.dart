@@ -8,6 +8,7 @@ void main(){
 
 
 // State meaning: It is a data that determines how your widget should look like
+//
 class MyApp extends StatelessWidget {
 
 }
