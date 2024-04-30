@@ -11,5 +11,7 @@ void main(){
 // Stateles Widget: This is a kind of widget where your app has less state
 class MyApp extends StatelessWidget {
     @override
-    Widget build(BuildContext)
+    Widget build(BuildContext context) {
+      
+    }
 }
