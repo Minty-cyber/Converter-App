@@ -18,7 +18,8 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
         backgroundColor: Colors.blueGrey,
         elevation: 0,
         title: const Text(
-          'Currency Converter'
+          'Currency Converter',
+          
           ),
       ),
       backgroundColor: Colors.blueGrey,
