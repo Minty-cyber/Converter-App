@@ -54,21 +54,24 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                         ),
                    ),
 
-                   TextButton(onPressed: () {
-                      if (kDebugMode) {
-                          print('Button Clicked'); 
-                      }
-                   }, 
-                      style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all(Colors.black),
-                          foregroundColor: MaterialStateProperty.all(Colors.white),
-                          // fixedSize:MaterialStateProperty.all(const Size(double.infinity())),
-                          minimumSize: MaterialStateProperty.all(const Size(double.infinity, 50)),
-                          shape: MaterialStateProperty.all(const RoundedRectangleBorder(borderRadius: BorderRadius.zero)), 
-                          
-                      ),
-                      child: const Text('Convert')
-
+                   Padding(
+                     padding: const EdgeInsets.all(8.0),
+                     child: TextButton(onPressed: () {
+                        if (kDebugMode) {
+                            print('Button Clicked'); 
+                        }
+                     }, 
+                        style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all(Colors.black),
+                            foregroundColor: MaterialStateProperty.all(Colors.white),
+                            // fixedSize:MaterialStateProperty.all(const Size(double.infinity())),
+                            minimumSize: MaterialStateProperty.all(const Size(double.infinity, 50)),
+                            shape: MaterialStateProperty.all(const RoundedRectangleBorder(borderRadius: BorderRadius.zero)), 
+                            
+                        ),
+                        child: const Text('Convert')
+                     
+                     ),
                    ),
 
                   
