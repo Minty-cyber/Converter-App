@@ -26,7 +26,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                         color: Color.fromARGB(255, 255, 255, 255)
                     ),
                     ), 
-                    //Padding and c
+                    //Padding and container
                    Padding(
                      padding: const EdgeInsets.all(8.0),
                      child: TextField(
