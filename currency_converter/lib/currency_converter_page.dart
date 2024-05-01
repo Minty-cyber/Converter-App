@@ -51,7 +51,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                           signed: true
                         )
                         ),
-                   )
+                   ),
                   
                   ],
     ),
