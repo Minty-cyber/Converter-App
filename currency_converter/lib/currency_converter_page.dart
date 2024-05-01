@@ -13,7 +13,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
         Text(
           'ThatOneGuy', style: TextStyle(
               fontSize: 45,
-              fontWeight: FontWeight.bold
+              fontWeight: FontWeight.bold,
               fontStyle: FontStyle.italic,
               color: Color.fromARGB(255, 25, 9, 197)
           ),
