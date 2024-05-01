@@ -54,7 +54,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                    ),
 
                    TextButton(onPressed: () {
-                      print('Button Clicked')
+                      print('Button Clicked');
                    }, 
                       child: const Text('Click me',
 
