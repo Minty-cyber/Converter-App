@@ -23,7 +23,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                       'Trillions', style: TextStyle(
                           fontSize: 45,
                           fontWeight: FontWeight.bold,
-                          fontStyle: FontStyle.italic,
+                          // fontStyle: FontStyle.italic,
                           color: Color.fromARGB(255, 255, 255, 255)
                       ),
                       ), 
