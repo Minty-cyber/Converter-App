@@ -20,8 +20,6 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
         title: const Text('Currency Converter'),
         foregroundColor: Colors.white,
         centerTitle: true,
-
-
       ),
       backgroundColor: Colors.blueGrey,
         body: Center(
