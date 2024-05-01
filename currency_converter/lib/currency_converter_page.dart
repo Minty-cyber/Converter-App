@@ -36,6 +36,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                             borderSide: BorderSide(
                                 color: Colors.red,
                                 width: 2.0,
+                                style: 
 
                             )
                           ),
