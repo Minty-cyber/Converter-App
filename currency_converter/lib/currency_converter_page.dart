@@ -14,7 +14,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                             borderRadius: BorderRadius.circular(5),
                           );
     return  Scaffold(
-      backgroundColor: Colors.Black,
+      backgroundColor: Colors.black,
         body: Center(
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.center, 
