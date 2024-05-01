@@ -10,7 +10,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget{
               color: Color.fromRGBO(255, 0, 0, 0),
               child:  Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.,
+              crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 Text('0')
               ],
