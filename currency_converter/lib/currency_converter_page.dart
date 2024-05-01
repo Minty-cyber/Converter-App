@@ -15,7 +15,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
               fontSize: 45,
               fontWeight: FontWeight.bold,
               fontStyle: FontStyle.italic,
-              color: Color.fromARGB(255, 14, 12, 1)
+              color: Color.fromARGB(255, 25, 9, 197)
           ),
           ), 
         
