@@ -62,7 +62,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                       style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all(Colors.black),
                           foregroundColor: MaterialStateProperty.all(Colors.white),
-                          fixedSize:MaterialStateProperty.all(const Size(400, 50)),
+                          fixedSize:MaterialStateProperty.all(const Size(410, 50)),
                           shape: MaterialStateProperty.all(const RoundedRectangleBorder(borderRadius: BorderRadius.zero)), 
                           
                       ),
