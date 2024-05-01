@@ -12,7 +12,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
       children: [
         Text(
           '0', style: TextStyle(
-              fontSize: 20
+              fontSize: 30
           ),
           ), 
         
