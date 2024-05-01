@@ -60,7 +60,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                         
                       }
                    }, 
-                      style: ButtonStyle(),
+                      style: const ButtonStyle(),
                       child: const Text('Convert')
 
                    ),
