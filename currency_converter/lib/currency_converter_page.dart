@@ -35,7 +35,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                           hintStyle: const TextStyle(
                             color: Colors.black
                           ),
-                          prefixIcon: Icon(Icons.monetization_on),
+                          prefixIcon: const Icon(Icons.monetization_on),
                           prefixIconColor: Colors.black,
                           filled: true,
                           fillColor: Colors.white,
