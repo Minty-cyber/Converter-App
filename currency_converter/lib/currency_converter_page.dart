@@ -42,7 +42,9 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                           focusedBorder: border,
                           enabledBorder: border,
                       ) ,
-                      keyboardType: TextInputType.numberWithOptions(),
+                      keyboardType: TextInputType.numberWithOptions(
+                        
+                      ),
                   ),
                   ],
     ),
