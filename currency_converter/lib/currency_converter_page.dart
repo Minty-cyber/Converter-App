@@ -17,7 +17,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
       backgroundColor: Colors.blueGrey,
         body: Center(
             child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center, 
                 children: [
                      const Text(
                       'ThatOneGuy', style: TextStyle(
