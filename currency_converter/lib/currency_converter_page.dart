@@ -9,7 +9,9 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
         body: Center(
             child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
-      children: [Text('0')],
+      children: [
+        Text('0')
+        ],
     )));
   }
 }
