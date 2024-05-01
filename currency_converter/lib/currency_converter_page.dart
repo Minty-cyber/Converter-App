@@ -8,7 +8,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget{
       return const Scaffold(
           body: Column(
             children: [
-              
+              Text('0')
             ],
           )
       );
