@@ -37,6 +37,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                                 color: Colors.red,
                                 width: 2.0,
                                 style: BorderStyle.none,
+                                strokeAlign: 
 
                             )
                           ),
