@@ -32,6 +32,8 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                       ) ,
                   )
                   ],
-    )));
+    ),
+    ),
+    );
   }
 }
