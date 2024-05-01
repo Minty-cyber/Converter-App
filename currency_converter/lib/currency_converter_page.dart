@@ -13,7 +13,8 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
         Text(
           'I am Andy and I love Nadia', style: TextStyle(
               fontSize: 45,
-              fontWeight: FontWeight.bold
+              fontWeight: FontWeight.bold,
+              fontStyle: FontStyle.italic
           ),
           ), 
         
