@@ -43,7 +43,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                           enabledBorder: border,
                       ) ,
                       keyboardType: TextInputType.numberWithOptions(
-                        
+                        decimal: true
                       ),
                   ),
                   ],
