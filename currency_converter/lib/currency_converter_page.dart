@@ -13,13 +13,13 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                             ),
                             borderRadius:  BorderRadius.all(Radius.circular(60)),
                           );
-    return const Scaffold(
+    return  Scaffold(
       backgroundColor: Colors.blueGrey,
         body: Center(
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                   Text(
+                   const Text(
                     'ThatOneGuy', style: TextStyle(
                         fontSize: 45,
                         fontWeight: FontWeight.bold,
@@ -28,19 +28,19 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                     ),
                     ), 
                    TextField(
-                      style:  TextStyle(
+                      style:  const TextStyle(
                         color: Colors.black
                       ), 
                       decoration: InputDecoration(
                           hintText: 'Please enter the amount in GHS',
-                          hintStyle: TextStyle(
+                          hintStyle: const TextStyle(
                             color: Colors.black
                           ),
                           prefixIcon: Icon(Icons.monetization_on),
                           prefixIconColor: Colors.black,
                           filled: true,
                           fillColor: Colors.white,
-                          focusedBorder: border
+                          focusedBorder: border,
                           enabledBorder: border,
 
 
