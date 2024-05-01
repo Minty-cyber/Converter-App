@@ -8,6 +8,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget{
       return const Scaffold(
            body: Center(
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Text('0')
               ],
