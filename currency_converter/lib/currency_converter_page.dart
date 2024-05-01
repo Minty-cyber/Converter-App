@@ -40,6 +40,14 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                             ),
                             borderRadius: BorderRadius.all(Radius.circular(60)),
                           ),
+                          enabledBorder: OutlineInputBorder(
+                            borderSide:  BorderSide(
+                                width: 2.0,
+                                style: BorderStyle.solid,
+                                strokeAlign: BorderSide.strokeAlignOutside,
+                            ),
+                            borderRadius: BorderRadius.all(Radius.circular(60)),
+                          ),
 
 
                       ) ,
