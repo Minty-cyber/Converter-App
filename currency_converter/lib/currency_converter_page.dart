@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
 
 class CurrencyConverterMaterialPage extends StatelessWidget {
-  const CurrencyConverterMaterialPage({Key? key}) : super(key: key);
+  const CurrencyConverterMaterialPage({super.key});
 
   @override
-   Widget build(BuildContext context) {
-    final border = OutlineInputBorder(
-      borderSide: BorderSide(
-        width: 2.0,
-        style: BorderStyle.solid,
-        // strokeAlign is not a property of BorderSide
-        // strokeAlign: BorderSide.strokeAlignOutside,
-      ),
-      borderRadius: const BorderRadius.all(Radius.circular(60)),
-    );
+  Widget build(BuildContext context) {
+    final border = const OutlineInputBorder(
+                            borderSide:  const BorderSide(
+                                width: 2.0,
+                                style: BorderStyle.solid,
+                                strokeAlign: BorderSide.strokeAlignOutside,
+                            ),
+                            borderRadius: const BorderRadius.all(Radius.circular(60)),
+                          );
     return  Scaffold(
       backgroundColor: Colors.blueGrey,
         body: Center(
