@@ -6,6 +6,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
+      backgroundColor: Color.fromARGB(255, 0, 0, 0),
         body: Center(
             child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
@@ -15,7 +16,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
               fontSize: 45,
               fontWeight: FontWeight.bold,
               fontStyle: FontStyle.italic,
-              color: Color.fromARGB(255, 25, 9, 197)
+              color: Color.fromARGB(255, 255, 255, 255)
           ),
           ), 
         
