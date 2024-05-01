@@ -6,9 +6,10 @@ class CurrencyConverterMaterialPage extends StatelessWidget{
     @override
     Widget build(BuildContext context){
       return const Scaffold(
-           body: Column(
+           body: ColoredBox(color: 
+           ) Column(
              mainAxisAlignment: MainAxisAlignment.center,
-             crossAxisAlignment: CrossAxisAlignment.center,
+             crossAxisAlignment: CrossAxisAlignment.,
              children: [
                Text('0')
              ],
