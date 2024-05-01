@@ -43,8 +43,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                           enabledBorder: border,
                       ) ,
                       keyboardType: TextInputType.number
-                      ),
-                  ),
+                  
                   ],
     ),
     ),
