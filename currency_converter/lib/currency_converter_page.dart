@@ -40,22 +40,8 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                           prefixIconColor: Colors.black,
                           filled: true,
                           fillColor: Colors.white,
-                          focusedBorder: OutlineInputBorder(
-                            borderSide:  BorderSide(
-                                width: 2.0,
-                                style: BorderStyle.solid,
-                                strokeAlign: BorderSide.strokeAlignOutside,
-                            ),
-                            borderRadius: BorderRadius.all(Radius.circular(60)),
-                          ),
-                          enabledBorder: OutlineInputBorder(
-                            borderSide:  BorderSide(
-                                width: 2.0,
-                                style: BorderStyle.solid,
-                                strokeAlign: BorderSide.strokeAlignOutside,
-                            ),
-                            borderRadius: BorderRadius.all(Radius.circular(60)),
-                          ),
+                          focusedBorder: border
+                          enabledBorder: border,
 
 
                       ) ,
