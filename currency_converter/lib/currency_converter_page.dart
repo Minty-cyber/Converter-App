@@ -63,7 +63,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                           backgroundColor: MaterialStateProperty.all(Colors.black),
                           foregroundColor: MaterialStateProperty.all(Colors.white),
                           // fixedSize:MaterialStateProperty.all(const Size(double.infinity())),
-                          minimumSize: MaterialStateProperty.all(value),
+                          minimumSize: MaterialStateProperty.all(Size(width, height)),
                           shape: MaterialStateProperty.all(const RoundedRectangleBorder(borderRadius: BorderRadius.zero)), 
                           
                       ),
