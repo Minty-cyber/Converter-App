@@ -9,7 +9,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget{
            body: Center(
             child: Column(
               children: [
-                
+                Text('0')
               ],
             ),
            ),
