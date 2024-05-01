@@ -29,7 +29,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                             color: Colors.black
                           ),
                           prefixIcon: Icon(Icons.monetization_on),
-                          prefixIconColor: Colors.white60,
+                          prefixIconColor: Colors.black,
                           filled: true,
                           fillColor: Colors.white
 
