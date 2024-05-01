@@ -44,7 +44,8 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                       ) ,
                       keyboardType: TextInputType.numberWithOptions(
                         decimal: true,
-                        
+                        signed: true
+                      )
                       )
                   
                   ],
