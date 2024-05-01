@@ -26,28 +26,31 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                         color: Color.fromARGB(255, 255, 255, 255)
                     ),
                     ), 
-                    
-                   TextField(
-                      style:  const TextStyle(
-                        color: Colors.black
-                      ), 
-                      decoration: InputDecoration(
-                          hintText: 'Please enter the amount in GHS',
-                          hintStyle: const TextStyle(
-                            color: Colors.black
-                          ),
-                          prefixIcon: const Icon(Icons.monetization_on),
-                          prefixIconColor: Colors.black,
-                          filled: true,
-                          fillColor: Colors.white,
-                          focusedBorder: border,
-                          enabledBorder: border,
-                      ),
-                      keyboardType: const TextInputType.numberWithOptions(
-                        decimal: true,
-                        signed: true
-                      )
-                      )
+                    //Padding and c
+                   Padding(
+                     padding: const EdgeInsets.all(8.0),
+                     child: TextField(
+                        style:  const TextStyle(
+                          color: Colors.black
+                        ), 
+                        decoration: InputDecoration(
+                            hintText: 'Please enter the amount in GHS',
+                            hintStyle: const TextStyle(
+                              color: Colors.black
+                            ),
+                            prefixIcon: const Icon(Icons.monetization_on),
+                            prefixIconColor: Colors.black,
+                            filled: true,
+                            fillColor: Colors.white,
+                            focusedBorder: border,
+                            enabledBorder: border,
+                        ),
+                        keyboardType: const TextInputType.numberWithOptions(
+                          decimal: true,
+                          signed: true
+                        )
+                        ),
+                   )
                   
                   ],
     ),
