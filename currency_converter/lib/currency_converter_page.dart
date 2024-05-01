@@ -9,7 +9,6 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                             borderSide:  const BorderSide(
                                 width: 2.0,
                                 style: BorderStyle.solid,
-                                strokeAlign: BorderSide.strokeAlignOutside,
                             ),
                             borderRadius: const BorderRadius.all(Radius.circular(60)),
                           );
