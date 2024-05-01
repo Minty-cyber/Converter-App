@@ -56,12 +56,12 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
 
                    TextButton(onPressed: () {
                       if (kDebugMode) {
-                          print('Button Clicked')
+                          print('Button Clicked');
                         
                       }
                    }, 
-                      child: const Text('Click me',
-
+                      child: const Text('Convert',
+                            
                       )
                    ),
                   
