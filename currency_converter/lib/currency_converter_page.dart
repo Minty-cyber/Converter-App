@@ -5,7 +5,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const border = OutlineInputBorder(
+    final border = OutlineInputBorder(
                             borderSide:  const BorderSide(
                                 width: 2.0,
                                 style: BorderStyle.solid,
