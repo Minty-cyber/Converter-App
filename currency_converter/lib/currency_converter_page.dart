@@ -13,7 +13,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
         Text(
           '0', style: TextStyle(
               fontSize: 45
-              
+              fontWeight: FontWeight.bold
           ),
           ), 
         
