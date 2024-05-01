@@ -18,15 +18,14 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                     child: const Text(
+                     const Text(
                       'ThatOneGuy', style: TextStyle(
                           fontSize: 45,
                           fontWeight: FontWeight.bold,
                           fontStyle: FontStyle.italic,
                           color: Color.fromARGB(255, 255, 255, 255)
                       ),
-                      ),
-                   ), 
+                      ), 
                     //Padding and container
                    Padding(
                      padding: const EdgeInsets.all(10.0),
