@@ -9,17 +9,17 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
       backgroundColor: Colors.blueGrey,
         body: Center(
             child: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Text(
-          'ThatOneGuy', style: TextStyle(
-              fontSize: 45,
-              fontWeight: FontWeight.bold,
-              fontStyle: FontStyle.italic,
-              color: Color.fromARGB(255, 255, 255, 255)
-          ),
-          ), 
-        ],
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    'ThatOneGuy', style: TextStyle(
+                        fontSize: 45,
+                        fontWeight: FontWeight.bold,
+                        fontStyle: FontStyle.italic,
+                        color: Color.fromARGB(255, 255, 255, 255)
+                    ),
+                    ), 
+                  ],
     )));
   }
 }
