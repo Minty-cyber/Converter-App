@@ -55,7 +55,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                    ),
 
                    Padding(
-                     padding: const EdgeInsets.all(8.0),
+                     padding: const EdgeInsets.all(10.0),
                      child: TextButton(onPressed: () {
                         if (kDebugMode) {
                             print('Button Clicked'); 
