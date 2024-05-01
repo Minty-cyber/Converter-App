@@ -11,7 +11,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                                 style: BorderStyle.solid,
                                 strokeAlign: BorderSide.strokeAlignOutside,
                             ),
-                            borderRadius:  BorderRadius.all(Radius.circular(60)),
+                            borderRadius: const BorderRadius.all(Radius.circular(60)),
                           );
     return  Scaffold(
       backgroundColor: Colors.blueGrey,
