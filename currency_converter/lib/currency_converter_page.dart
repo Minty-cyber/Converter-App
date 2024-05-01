@@ -54,7 +54,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                         ),
                    ),
 
-                   const TextButton(onPressed: () {
+                   TextButton(onPressed: () {
                       if (kDebugMode) {
                           print('Button Clicked'); 
                       }
@@ -62,7 +62,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                       style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all(Colors.black),
                           foregroundColor: MaterialStateProperty.all(Colors.white),
-                          fixedSize:MaterialStateProperty.all(Size(200, 50)),
+                          fixedSize:MaterialStateProperty.all(const Size(200, 50)),
                           shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: BorderRadius.zero)), // Remove border radius
                           
                       ),
