@@ -62,7 +62,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                       style: const ButtonStyle(
                           backgroundColor: MaterialStatePropertyAll(Colors.black),
                           foregroundColor: MaterialStatePropertyAll(Colors.white),
-                          
+                          side: MaterialStatePropertyAll(BorderSide.none)
                       ),
                       child: const Text('Convert')
 
