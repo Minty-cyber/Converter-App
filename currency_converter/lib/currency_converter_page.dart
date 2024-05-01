@@ -16,6 +16,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
     return  Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blueGrey,
+        ele
       ),
       backgroundColor: Colors.blueGrey,
         body: Center(
