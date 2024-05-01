@@ -26,7 +26,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                       decoration: InputDecoration(
                           hintText: 'Please enter the amount in GHS',
                           hintStyle: TextStyle(
-                            color: Colors.white38
+                            color: Colors.white60
                           )
 
                       ) ,
