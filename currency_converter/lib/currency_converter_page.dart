@@ -16,12 +16,7 @@ class CurrencyConverterMaterialPage extends StatefulWidget {
 
 class _CurrencyConverterMaterialPageState
  extends State<CurrencyConverterMaterialPage> {
-  @override
-  void initState() {
-    // TODO: implement initState
-    super.initState();
-    print('Rebuilt');
-  }
+
 
    @override
   Widget build(BuildContext context) {
