@@ -52,8 +52,6 @@ class _CurrencyConverterCupertinoPageState extends State<CurrencyConverterCupert
                           color: CupertinoColors.white,
                           border: Border.all(),
                           borderRadius: BorderRadius.circular(5),
-
-                          
                         ),
                         placeholder:  'Please enter the amount in GHS',
                         keyboardType: const TextInputType.numberWithOptions(
