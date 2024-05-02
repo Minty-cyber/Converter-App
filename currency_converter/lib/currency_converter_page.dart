@@ -78,8 +78,8 @@ class _CurrencyConverterMaterialPageState
                      padding: const EdgeInsets.all(10.0),
                      child: TextButton(
                       onPressed: () {
-                        result = double.parse(textEditingController.text)*81;
                         setState(() {
+                          result = double.parse(textEditingController.text)*81;
                           
                         });
                      }, 
