@@ -12,6 +12,7 @@ class CurrencyConverterMaterialPage extends StatefulWidget {
 class _CurrencyConverterMaterialPageState
  extends State<CurrencyConverterMaterialPage> {
   double result = 0;
+  final TextEditingController textEditingController = TextEditingController();
 
 
    @override
