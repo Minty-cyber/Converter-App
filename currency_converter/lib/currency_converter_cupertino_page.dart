@@ -24,8 +24,6 @@ class _CurrencyConverterCupertinoPageState extends State<CurrencyConverterCupert
       navigationBar: const CupertinoNavigationBar(
         backgroundColor: CupertinoColors.systemGrey3,
         middle: Text('Currency Converter'),
-        foregroundColor: CupertinoColors.white,
-        centerTitle: true,
       ),
       backgroundColor: Colors.blueGrey,
         body: Center(
