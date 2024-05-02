@@ -42,7 +42,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                    Padding(
                      padding: const EdgeInsets.all(10.0),
                      child: TextField(
-                        controller: ,
+                        controller: textEditingController,
                         textAlign: TextAlign.center,
                         style: const TextStyle(
                           color: Colors.black
