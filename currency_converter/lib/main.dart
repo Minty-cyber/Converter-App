@@ -25,3 +25,11 @@ class MyApp extends StatelessWidget {
 }
 
 
+class MyCupertino extends StatelessWidget {
+  const MyCupertino({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
