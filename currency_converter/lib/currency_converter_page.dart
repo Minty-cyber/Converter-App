@@ -5,6 +5,7 @@ class CurrencyConverterMaterialPage extends StatefulWidget {
 
   @override
   State<CurrencyConverterMaterialPage> createState(){
+    print('Create state')
      return _CurrencyConverterMaterialPageState();
    
   }
