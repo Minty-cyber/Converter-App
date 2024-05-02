@@ -1,4 +1,5 @@
 import 'package:currency_converter/currency_converter_page.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart'; //Importing some package called material.dart
 
 void main(){
@@ -30,7 +31,7 @@ class MyCupertinoApp extends StatelessWidget {
 
    @override
     Widget build(BuildContext context) {
-        return const CupertinoAp(
+        return const CupertinoApp(
           home: CurrencyConverterMaterialPage(),
 
         );
