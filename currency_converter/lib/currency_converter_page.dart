@@ -11,7 +11,7 @@ class CurrencyConverterMaterialPage extends StatefulWidget {
 
 class _CurrencyConverterMaterialPageState
  extends State<CurrencyConverterMaterialPage> {
-  
+  double result
 
 
    @override
