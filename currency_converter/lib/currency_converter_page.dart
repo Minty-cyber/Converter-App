@@ -16,9 +16,6 @@ class _CurrencyConverterMaterialPageState
 
    @override
   Widget build(BuildContext context) {
-
-    final TextEditingController textEditingController = TextEditingController();
-
     final border = OutlineInputBorder(
                             borderSide:  const BorderSide(
                                 width: 2.0,
