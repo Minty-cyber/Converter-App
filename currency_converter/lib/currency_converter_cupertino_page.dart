@@ -22,9 +22,9 @@ class _CurrencyConverterCupertinoPageState extends State<CurrencyConverterCupert
                           );
     return  CupertinoPageScaffold(
       navigationBar: CupertinoNavigationBar(
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: CupertinoColors.systemGrey3,
         middle: const Text('Currency Converter'),
-        foregroundColor: Colors.white,
+        foregroundColor: CupertinoColors.white,
         centerTitle: true,
       ),
       backgroundColor: Colors.blueGrey,
