@@ -10,18 +10,8 @@ class CurrencyConverterMaterialPage extends StatefulWidget {
 
 class _CurrencyConverterMaterialPageState
  extends State<CurrencyConverterMaterialPage> {
-  
+
    @override
-    Widget build(BuildContext context) {
-      return const Scaffold();
-    }
-}
-
-class CurrencyConverterMaterialPagee extends StatelessWidget {
-  const CurrencyConverterMaterialPagee({super.key});
-
-
-  @override
   Widget build(BuildContext context) {
     double result = 0;
     final TextEditingController textEditingController = TextEditingController();
@@ -109,3 +99,5 @@ class CurrencyConverterMaterialPagee extends StatelessWidget {
     );
   }
 }
+
+
