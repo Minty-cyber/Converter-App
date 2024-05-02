@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class CurrencyConverterMaterialPage extends StatefulWidget {
-   CurrencyConverterMaterialPage ({super.key})
+  const CurrencyConverterMaterialPage ({super.key});
 
   @override
-  State<CurrencyConverterMaterialPage> createState() => _CurrencyConverterMaterialPageState();
+  State<CurrencyConverterMaterialPage> createState() =>_CurrencyConverterMaterialPageState();
    
   
 }
