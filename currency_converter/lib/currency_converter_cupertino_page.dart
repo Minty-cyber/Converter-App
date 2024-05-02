@@ -74,13 +74,8 @@ class _CurrencyConverterCupertinoPageState extends State<CurrencyConverterCupert
                         });
                      }, 
                         color: CupertinoColors.black,
-                        style: TextButton.styleFrom(
-                            backgroundColor: Colors.black,
-                            foregroundColor:Colors.white,
-                            // fixedSize:MaterialStateProperty.all(const Size(double.infinity())),
-                            minimumSize: const Size(double.infinity, 50),
-                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)), 
-                        ),
+                        minSize: ,
+                        
                         child: const Text('Convert')
                      
                      ),
