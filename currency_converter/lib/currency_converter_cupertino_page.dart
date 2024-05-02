@@ -10,7 +10,7 @@ class CurrencyConverterCupertinoPage extends StatefulWidget {
 class _CurrencyConverterCupertinoPageState extends State<CurrencyConverterCupertinoPage> {
   double result = 0;
   final TextEditingController textEditingController = TextEditingController();
-  
+
   @override
   Widget build(BuildContext context) {
     final border = OutlineInputBorder(
@@ -20,7 +20,7 @@ class _CurrencyConverterCupertinoPageState extends State<CurrencyConverterCupert
                             ),
                             borderRadius: BorderRadius.circular(5),
                           );
-    return  Scaffold(
+    return  CupertinoPageScaffold(
       appBar: AppBar(
         backgroundColor: Colors.blueGrey,
         elevation: 0,
