@@ -11,13 +11,12 @@ class CurrencyConverterMaterialPage extends StatefulWidget {
 
 class _CurrencyConverterMaterialPageState
  extends State<CurrencyConverterMaterialPage> {
-  double result
+  double result = 0;
 
 
    @override
   Widget build(BuildContext context) {
-    print('build on');
-    double result = 0;
+    
     
     final TextEditingController textEditingController = TextEditingController();
 
