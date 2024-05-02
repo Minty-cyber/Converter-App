@@ -27,14 +27,14 @@ class MyApp extends StatelessWidget {
 }
 
 
-class MyCupertinoApp extends StatelessWidget {
-  const MyCupertinoApp({super.key});
+// class MyCupertinoApp extends StatelessWidget {
+//   const MyCupertinoApp({super.key});
 
-   @override
-    Widget build(BuildContext context) {
-        return const CupertinoApp(
-          home: CurrencyConverterCupertinoPage(),
+//    @override
+//     Widget build(BuildContext context) {
+//         return const CupertinoApp(
+//           home: CurrencyConverterCupertinoPage(),
 
-        );
-    }
-}
+//         );
+//     }
+// }
