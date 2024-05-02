@@ -21,7 +21,9 @@ class _CurrencyConverterMaterialPageState
   Widget build(BuildContext context) {
     print('build on');
     late double result = 0;
-    ini
+    
+    initState()
+
     final TextEditingController textEditingController = TextEditingController();
 
     final border = OutlineInputBorder(
