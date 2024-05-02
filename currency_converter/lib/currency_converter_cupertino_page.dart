@@ -74,7 +74,6 @@ class _CurrencyConverterCupertinoPageState extends State<CurrencyConverterCupert
                         });
                      }, 
                         color: CupertinoColors.black,
-                        minSize: ,
                         
                         child: const Text('Convert')
                      
