@@ -25,7 +25,7 @@ class _CurrencyConverterCupertinoPageState extends State<CurrencyConverterCupert
         backgroundColor: CupertinoColors.systemGrey3,
         middle: Text('Currency Converter'),
       ),
-      backgroundColor: CupertinoColors.systemGrey3,,
+      backgroundColor: CupertinoColors.systemGrey3,
         child: Center(
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.center, 
