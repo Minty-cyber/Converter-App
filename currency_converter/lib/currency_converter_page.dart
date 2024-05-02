@@ -20,10 +20,8 @@ class _CurrencyConverterMaterialPageState
    @override
   Widget build(BuildContext context) {
     print('build on');
-    late double result = 0;
+    double result = 0;
     
-    initState()
-
     final TextEditingController textEditingController = TextEditingController();
 
     final border = OutlineInputBorder(
