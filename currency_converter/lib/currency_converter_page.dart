@@ -38,7 +38,7 @@ class _CurrencyConverterMaterialPageState
                 mainAxisAlignment: MainAxisAlignment.center, 
                 children: [
                       Text(
-                      result., 
+                      result.toStringAsFixed(fractionDigits), 
                       style: const TextStyle(
                           fontSize: 45,
                           fontWeight: FontWeight.bold,
