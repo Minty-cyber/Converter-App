@@ -42,7 +42,7 @@ class _CurrencyConverterCupertinoPageState extends State<CurrencyConverterCupert
                     //Padding and container
                    Padding(
                      padding: const EdgeInsets.all(10.0),
-                     CupertinoTextField(
+                     child: CupertinoTextField(
                         controller: textEditingController,
                         textAlign: TextAlign.center,
                         style: const TextStyle(
