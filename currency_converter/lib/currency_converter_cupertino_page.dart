@@ -73,7 +73,7 @@ class _CurrencyConverterCupertinoPageState extends State<CurrencyConverterCupert
                           
                         });
                      }, 
-                        
+                        color: CupertinoColors.bls,
                         style: TextButton.styleFrom(
                             backgroundColor: Colors.black,
                             foregroundColor:Colors.white,
