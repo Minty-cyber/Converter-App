@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CurrencyConverterMaterialPage extends StatefulWidget {
+  const
   State createState() => _CurrencyConverterMaterialPageState();
 }
 
