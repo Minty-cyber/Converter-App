@@ -20,6 +20,7 @@ class _CurrencyConverterMaterialPageState
   void initState() {
     // TODO: implement initState
     super.initState();
+    print('Rebuilt');
   }
 
    @override
