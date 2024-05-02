@@ -32,7 +32,7 @@ class MyCupertinoApp extends StatelessWidget {
    @override
     Widget build(BuildContext context) {
         return const CupertinoApp(
-          home: CurrencyConverterMaterialPage(),
+          home: CurrencyConverterCupertinoPage(),
 
         );
     }
