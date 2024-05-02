@@ -70,7 +70,7 @@ class CurrencyConverterMaterialPage extends StatelessWidget {
                      padding: const EdgeInsets.all(10.0),
                      child: TextButton(onPressed: () {
                        print(textEditingController.text);
-                       print(textEditingController.text);
+                       print(textEditingController.text*82);
 
                      }, 
                         style: TextButton.styleFrom(
