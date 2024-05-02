@@ -52,7 +52,7 @@ class _CurrencyConverterCupertinoPageState extends State<CurrencyConverterCupert
                           color: CupertinoColors.white,
                           border: Border.all(),
                           borderRadius: BorderRadius.circular(5),
-                            
+                          
                         ),
                         keyboardType: const TextInputType.numberWithOptions(
                           decimal: true,
