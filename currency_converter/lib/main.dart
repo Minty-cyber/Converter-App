@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart'; //Importing some package called material.dart
 
 void main(){
-    runApp(const MyCupertinoApp());
+    runApp(const MyApp());
 }
 
 
