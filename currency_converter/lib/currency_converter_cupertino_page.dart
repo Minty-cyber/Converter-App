@@ -13,13 +13,7 @@ class _CurrencyConverterCupertinoPageState extends State<CurrencyConverterCupert
 
   @override
   Widget build(BuildContext context) {
-    final border = OutlineInputBorder(
-                            borderSide:  const BorderSide(
-                                width: 2.0,
-                                style: BorderStyle.solid,
-                            ),
-                            borderRadius: BorderRadius.circular(5),
-                          );
+  
     return  CupertinoPageScaffold(
       navigationBar: const CupertinoNavigationBar(
         backgroundColor: CupertinoColors.systemGrey3,
