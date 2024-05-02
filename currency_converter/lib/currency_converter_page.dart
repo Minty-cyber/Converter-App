@@ -38,7 +38,7 @@ class _CurrencyConverterMaterialPageState
                 mainAxisAlignment: MainAxisAlignment.center, 
                 children: [
                       Text(
-                      result!= 0 ? result.toStringAsFixed(2) : result.toStringAsFixed(0), 
+                      '\$ ${result != 0 ? result.toStringAsFixed(2) : result.toStringAsFixed(0)}',
                       style: const TextStyle(
                           fontSize: 45,
                           fontWeight: FontWeight.bold,
