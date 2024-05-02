@@ -4,11 +4,12 @@ class CurrencyConverterMaterialPage extends StatefulWidget {
   const CurrencyConverterMaterialPage ({super.key});
 
   @override
-  State createState() => 
+  State<CurrencyConverterMaterialPage> createState() => 
     _CurrencyConverterMaterialPageState();
 }
 
-class _CurrencyConverterMaterialPageState extends State {
+class _CurrencyConverterMaterialPageState
+ extends State {
    @override
     Widget build(BuildContext context) {
       return const Scaffold();
