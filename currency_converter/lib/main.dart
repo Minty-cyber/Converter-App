@@ -25,8 +25,8 @@ class MyApp extends StatelessWidget {
 }
 
 
-class MyCupertino extends StatelessWidget {
-  const MyCupertino({super.key});
+class MyCupertinoApp extends StatelessWidget {
+  const MyCupertinoApp({super.key});
 
   @override
   Widget build(BuildContext context) {
