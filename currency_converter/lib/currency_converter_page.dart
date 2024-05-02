@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class CurrencyConverterMaterialPage extends StatelessWidget {
-  const CurrencyConverterMaterialPage({super.key});
+  CurrencyConverterMaterialPage({super.key});
 
   final TextEditingController textEditingController = TextEditingController()
 
