@@ -11,7 +11,7 @@ class _CurrencyConverterMaterialPageState extends State {
     }
 }
 
-class CurrencyConverterMaterialPage extends StatelessWidget {
+class CurrencyConverterMaterialPagee extends StatelessWidget {
   const CurrencyConverterMaterialPage({super.key});
 
 
