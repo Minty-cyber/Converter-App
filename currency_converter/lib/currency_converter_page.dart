@@ -14,7 +14,11 @@ class _CurrencyConverterMaterialPageState
   double result = 0;
   final TextEditingController textEditingController = TextEditingController();
 
-  
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+  }
    @override
   Widget build(BuildContext context) {
     final border = OutlineInputBorder(
