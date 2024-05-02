@@ -17,6 +17,7 @@ class _CurrencyConverterMaterialPageState
 
    @override
   Widget build(BuildContext context) {
+    print
     double result = 0;
     final TextEditingController textEditingController = TextEditingController();
 
