@@ -16,7 +16,7 @@ class _CurrencyConverterMaterialPageState
 
   @override
   void dispose() {
-    textEditingController.dispose()
+    textEditingController.dispose();
     super.dispose();
   }
    @override
